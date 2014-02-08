@@ -3,8 +3,6 @@ package me.codermason.bank;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.SortedMap;
-import java.util.TreeMap;
 
 import me.codermason.bank.bank.Bank;
 import me.codermason.bank.commands.CommandRouter;
@@ -73,6 +71,7 @@ public class VB extends JavaPlugin {
     		"/bank pay - " + Lang.PAY_DESCRIPTION.toString(), 
     		"/bank deposit - " + Lang.DEPOSIT_DESCRIPTION.toString(), 
     		"/bank withdraw - " + Lang.WITHDRAW_DESCRIPTION.toString() }));
+        //TODO: optimize
     }
   
     private void loadItems() {
