@@ -1,0 +1,13 @@
+name: VirtualBank
+main: me.codermason.bank.VB
+version: 1.3
+author: codermason
+description: A virtual bank with gold ingots
+commands:
+  shop:
+    description: Shop for item packages
+  buy:
+    description: Buy an item package
+  bank:
+    description: Default bank command
+    aliases: [vb, virtualbank]
